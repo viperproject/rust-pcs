@@ -1,0 +1,12 @@
+[package]
+name = "rust-epcs-cli"
+version = "0.1.0"
+authors = ["wolffd <wolffdy0@gmail.com>"]
+edition = "2018"
+license = "Apache-2.0"
+
+[dependencies]
+clap = "2.33.0"
+rust-epcs = { path = "../rust-epcs" }
+log4rs = "0.9.0"
+log = "0.4.8"

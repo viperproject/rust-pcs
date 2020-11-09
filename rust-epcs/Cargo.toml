@@ -1,0 +1,13 @@
+[package]
+name = "rust-epcs"
+version = "0.1.0"
+authors = ["wolffd <wolffdy0@gmail.com>"]
+edition = "2018"
+license = "Apache-2.0"
+
+[dependencies]
+clap = "2.33.*"
+log = "0.4.*"
+env_logger = "0.7.*"
+im = "14.1.0"
+lazy_static = "1.4.0"

@@ -1,0 +1,11 @@
+#!/bin/bash
+
+FILES=snippets/*
+for f in $FILES
+do
+        echo "$f"
+        dir="target/mir/$(echo "$(basename $f)" | cut -f 1 -d '.')"
+        mkdir -p $dir
+        rustc -Awarnings -Zunpretty=mir-cfg -Zdump-mir=all -Zdump-mir-dir=$dir --crate-type=lib --out-dir=$dir --emit=mir $f > $dir/cfg.dot
+        dot -Tpng $dir/cfg.dot -o $dir/cfg.png > /dev/null
+done

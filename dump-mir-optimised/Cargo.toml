@@ -1,0 +1,7 @@
+[package]
+name = "dump-mir-optimised"
+version = "0.1.0"
+authors = ["William Seddon <wseddon@student.ethz.ch"]
+edition = "2018"
+
+[dependencies]

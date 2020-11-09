@@ -1,0 +1,8 @@
+[workspace]
+
+members = [
+    "dump-mir-optimised",
+    "lsp-epcs-hover",
+    "rust-epcs",
+    "rust-epcs-cli",
+]
