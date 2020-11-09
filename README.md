@@ -1,5 +1,7 @@
 # Rust PCS
 
+[![Test](https://github.com/viperproject/rust-pcs/workflows/Test/badge.svg)](https://github.com/viperproject/rust-pcs/actions?query=workflow%3A"Test"+branch%3Amain)
+
 This project provides the prototype of a library to compute Rust's Place Capabilities Summary (PCS) information. For details see the writups by Dylan Wolff ([project description](https://ethz.ch/content/dam/ethz/special-interest/infk/chair-program-method/pm/documents/Education/Theses/Dylan_Wolff_RICS_Report.pdf), [final report](https://ethz.ch/content/dam/ethz/special-interest/infk/chair-program-method/pm/documents/Education/Theses/Dylan_Wolff_RICS_Report.pdf)) and by William Seddon ([project description](https://ethz.ch/content/dam/ethz/special-interest/infk/chair-program-method/pm/documents/Education/Theses/William_Seddon_MA_Description.pdf), [final report](https://ethz.ch/content/dam/ethz/special-interest/infk/chair-program-method/pm/documents/Education/Theses/William_Seddon_MS_Report.pdf)).
 
 ## How do I run it?
